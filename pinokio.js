@@ -1,8 +1,8 @@
 const path = require('path')
 module.exports = {
   version: "1.5",
-  title: "zest",
-  description: "",
+  title: "ZeST",
+  description: "ZeST: Zero-Shot Material Transfer from a Single Image. Local port of https://huggingface.co/spaces/fffiloni/ZeST (Project: https://ttchengab.github.io/zest/)",
   icon: "icon.png",
   menu: async (kernel) => {
     let installing = await kernel.running(__dirname, "install.js")
